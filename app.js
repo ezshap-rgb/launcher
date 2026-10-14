@@ -9,8 +9,26 @@
 
   let apps = [];
   let loaded = false;
+  let refreshing = false;
 
-  // Deterministic hue for fallback letter tiles, from the app name.
+  const refreshBtn = document.querySelector('.refresh-btn');
+  const refreshIcon = refreshBtn?.querySelector('.refresh-icon');
+
+  function setRefreshing(on) {
+    refreshing = on;
+    if (refreshBtn) refreshBtn.setAttribute('aria-busy', String(on));
+    if (refreshBtn) refreshBtn.disabled = on;
+    if (refreshIcon) refreshIcon.classList.toggle('spin', on);
+  }
+
+  if (refreshBtn) {
+    refreshBtn.addEventListener('click', () => {
+      if (refreshing) return;
+      setRefreshing(true);
+      load().finally(() => setRefreshing(false));
+    });
+  }
+
   function hueFrom(name) {
     let h = 0;
     for (const ch of String(name)) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
@@ -84,7 +102,8 @@
           ? "No apps discovered yet.<br />Open this repo's <strong>Actions</strong> tab, run “<strong>Update app list</strong>” once, then reload."
           : "Loading…";
     } else if (shown.length === 0) {
-      emptyMsg.textContent = `No apps match “${search.value.trim()}”.`;
+      emptyMsg.textContent =
+        `No apps match “${search.value.trim()}”.`;
     }
   }
 

@@ -1,52 +1,103 @@
+/* App Launcher — styles */
 :root {
   --bg: #0d1117;
   --surface: #161b22;
-  --surface-2: #1c2530;
   --border: #30363d;
-  --text: #e6edf3;
-  --dim: #8b949e;
-  --accent: #1a73e8;
-  --radius: 14px;
+  --text: #c9d1d9;
+  --muted: #8b949e;
+  --accent: #a371f7;
 }
 
-* {
+*,
+*::before,
+*::after {
   box-sizing: border-box;
-  -webkit-tap-highlight-color: transparent;
+}
+
+html {
+  color-scheme: dark;
 }
 
 body {
   margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica", "Arial", sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji";
   background: var(--bg);
   color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
-/* Top bar */
 .topbar {
   position: sticky;
   top: 0;
   z-index: 10;
   display: flex;
   align-items: center;
-  gap: 16px;
-  padding: 14px 20px;
+  gap: 12px;
+  padding: 12px 16px;
   background: rgba(13, 17, 23, 0.92);
   backdrop-filter: blur(8px);
   border-bottom: 1px solid var(--border);
 }
 
+.refresh-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  color: var(--text);
+  cursor: pointer;
+  flex: 0 0 auto;
+}
+
+.refresh-btn:hover {
+  border-color: var(--accent);
+}
+
+.refresh-btn:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.refresh-btn[disabled] {
+  opacity: 0.45;
+  cursor: progress;
+}
+
+.refresh-icon {
+  width: 16px;
+  height: 16px;
+  stroke: currentColor;
+  stroke-width: 2;
+  fill: none;
+  display: block;
+}
+
+.refresh-btn[aria-busy="true"] .refresh-icon {
+  animation: refresh-spin 0.7s linear infinite;
+}
+
+@keyframes refresh-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 .topbar h1 {
   margin: 0;
-  font-size: 1.1rem;
+  font-size: 1.05rem;
   font-weight: 700;
-  flex: 0 0 auto;
 }
 
 #search {
   flex: 1;
   max-width: 440px;
-  margin-left: auto;
   background: var(--surface);
   border: 1px solid var(--border);
   border-radius: 10px;
@@ -60,33 +111,27 @@ body {
   border-color: var(--accent);
 }
 
-/* Card grid */
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
-  gap: 14px;
-  padding: 20px;
-  max-width: 1100px;
-  margin: 0 auto;
+  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  gap: 16px;
+  padding: 20px 24px 80px;
 }
 
 .card {
   display: flex;
-  align-items: center;
   gap: 14px;
+  padding: 14px 16px;
   background: var(--surface);
   border: 1px solid var(--border);
-  border-radius: var(--radius);
-  padding: 16px;
-  color: var(--text);
+  border-radius: 12px;
   text-decoration: none;
-  transition: transform 0.12s ease, border-color 0.12s ease, background 0.12s ease;
+  color: inherit;
+  transition: border-color 0.15s ease, transform 0.1s ease;
 }
 
 .card:hover {
-  transform: translateY(-2px);
   border-color: var(--accent);
-  background: var(--surface-2);
 }
 
 .card:focus-visible {
@@ -95,43 +140,48 @@ body {
 }
 
 .tile {
-  flex: 0 0 auto;
-  width: 54px;
-  height: 54px;
-  border-radius: 12px;
-  background: center / cover no-repeat;
+  flex: 0 0 48px;
+  width: 48px;
+  height: 48px;
+  border-radius: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-size: 1.2rem;
   font-weight: 700;
-  font-size: 1.35rem;
   color: #fff;
-  overflow: hidden;
+  user-select: none;
 }
 
 .tile img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  border-radius: 10px;
+  display: block;
 }
 
 .card-txt {
-  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
   min-width: 0;
 }
 
 .card-title {
+  margin: 0;
+  font-size: 0.98rem;
   font-weight: 600;
-  font-size: 1rem;
+  color: var(--text);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
 
 .card-desc {
-  margin-top: 3px;
-  font-size: 0.8rem;
-  color: var(--dim);
+  margin: 0;
+  font-size: 0.82rem;
+  color: var(--muted);
   line-height: 1.35;
   display: -webkit-box;
   -webkit-line-clamp: 2;
@@ -139,27 +189,11 @@ body {
   overflow: hidden;
 }
 
-/* Empty / loading states */
 .empty {
-  max-width: 640px;
-  margin: 90px auto 0;
-  padding: 0 24px;
+  padding: 40px 24px;
   text-align: center;
-  color: var(--dim);
-  line-height: 1.65;
+  color: var(--muted);
   font-size: 0.95rem;
-}
-
-.empty strong {
-  color: var(--text);
-}
-
-.empty code {
-  background: var(--surface);
-  border: 1px solid var(--border);
-  border-radius: 6px;
-  padding: 2px 6px;
-  font-size: 0.85rem;
 }
 
 @media (max-width: 520px) {

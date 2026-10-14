@@ -1,7 +1,14 @@
 {
-  "generatedAt": "2026-10-14T16:02:15.558Z",
+  "generatedAt": "2026-10-14T17:00:44.104Z",
   "owner": "ezshap-rgb",
   "apps": [
+    {
+      "name": "launcher",
+      "title": "App Launcher",
+      "description": "A self-updating dashboard of all your GitHub Pages apps.",
+      "url": "https://ezshap-rgb.github.io/launcher/",
+      "icon": "https://ezshap-rgb.github.io/launcher/icons/apple-touch-icon.png"
+    },
     {
       "name": "Camp-Budget-Tracker",
       "title": "Camp Card Tracker",
@@ -49,6 +56,13 @@
       "title": "Sphere It - Interactive 3D Sphere & Dome Designer",
       "description": "I simple app to turn any image or tecture into a 3d sphere image",
       "url": "https://ezshap-rgb.github.io/Sphere-it/",
+      "icon": ""
+    },
+    {
+      "name": "Audio-Trimmer",
+      "title": "Streamlined Audio Trimmer & MP3 Converter",
+      "description": "Simple app to trim audio",
+      "url": "https://ezshap-rgb.github.io/Audio-Trimmer/",
       "icon": ""
     },
     {
