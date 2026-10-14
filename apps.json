@@ -1,14 +1,7 @@
 {
-  "generatedAt": "2026-10-14T17:00:44.104Z",
+  "generatedAt": "2026-10-14T19:21:56.392Z",
   "owner": "ezshap-rgb",
   "apps": [
-    {
-      "name": "launcher",
-      "title": "App Launcher",
-      "description": "A self-updating dashboard of all your GitHub Pages apps.",
-      "url": "https://ezshap-rgb.github.io/launcher/",
-      "icon": "https://ezshap-rgb.github.io/launcher/icons/apple-touch-icon.png"
-    },
     {
       "name": "Camp-Budget-Tracker",
       "title": "Camp Card Tracker",
