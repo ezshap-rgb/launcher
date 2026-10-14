@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-10-14T16:02:15.558Z",
+  "owner": "ezshap-rgb",
+  "apps": [
+    {
+      "name": "Camp-Budget-Tracker",
+      "title": "Camp Card Tracker",
+      "description": "Track Camp Budget",
+      "url": "https://ezshap-rgb.github.io/Camp-Budget-Tracker/",
+      "icon": ""
+    },
+    {
+      "name": "Passport-photo-creator",
+      "title": "Passport Photo Studio",
+      "description": "",
+      "url": "https://ezshap-rgb.github.io/Passport-photo-creator/",
+      "icon": ""
+    },
+    {
+      "name": "Simple-Photo-Cropper",
+      "title": "Photo Precision Cropper v4",
+      "description": "",
+      "url": "https://ezshap-rgb.github.io/Simple-Photo-Cropper/",
+      "icon": ""
+    },
+    {
+      "name": "Canvas-Resizer",
+      "title": "Precision Canvas Studio",
+      "description": "",
+      "url": "https://ezshap-rgb.github.io/Canvas-Resizer/",
+      "icon": ""
+    },
+    {
+      "name": "Collager-and-Cropper-Studio",
+      "title": "Precision Collage & Crop Studio",
+      "description": "",
+      "url": "https://ezshap-rgb.github.io/Collager-and-Cropper-Studio/",
+      "icon": ""
+    },
+    {
+      "name": "Simple-Calculator",
+      "title": "Simple Calculator Studio - Pro",
+      "description": "",
+      "url": "https://ezshap-rgb.github.io/Simple-Calculator/",
+      "icon": ""
+    },
+    {
+      "name": "Sphere-it",
+      "title": "Sphere It - Interactive 3D Sphere & Dome Designer",
+      "description": "I simple app to turn any image or tecture into a 3d sphere image",
+      "url": "https://ezshap-rgb.github.io/Sphere-it/",
+      "icon": ""
+    },
+    {
+      "name": "machal-portal",
+      "title": "Supervisor Management Dashboard",
+      "description": "",
+      "url": "https://ezshap-rgb.github.io/machal-portal/",
+      "icon": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCA1MDAgNTAwIiB3aWR0aD0iNTAwIiBoZWlnaHQ9IjUwMCI+CgogIDwhLS0gQVJDSCAtLT4KICA8IS0tIFRlYWwgbGVmdCBhcmNoIC0tPgogIDxwYXRoIGQ9Ik0gMTQ4IDM3MAogICAgICAgICAgIEMgMTEwIDM0MCwgODUgMjkwLCA4OCAyMzAKICAgICAgICAgICBDIDkxIDE2OCwgMTI4IDExOCwgMTgwIDk1CiAgICAgICAgICAgQyAyMDUgODQsIDIyOCA4MiwgMjUwIDgyCiAgICAgICAgICAgQyAyNTUgODIsIDI1OCA4NCwgMjU2IDkwIgogICAgICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzFEQkZCNCIgc3Ryb2tlLXdpZHRoPSIyMiIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIi8+CgogIDwhLS0gUHVycGxlIHJpZ2h0IGFyY2ggLS0+CiAgPHBhdGggZD0iTSAzNTIgMzcwCiAgICAgICAgICAgQyAzOTAgMzQwLCA0MTUgMjkwLCA0MTIgMjMwCiAgICAgICAgICAgQyA0MDkgMTY4LCAzNzIgMTE4LCAzMjAgOTUKICAgICAgICAgICBDIDI5NSA4NCwgMjcyIDgyLCAyNTAgODIKICAgICAgICAgICBDIDI0NSA4MiwgMjQyIDg0LCAyNDQgOTAiCiAgICAgICAgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOEIyRjhCIiBzdHJva2Utd2lkdGg9IjIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KCiAgPCEtLSBUZWFsIGJhc2Ugc3dlZXAgLS0+CiAgPHBhdGggZD0iTSAxNDggMzcwIEMgMTY4IDM4NSwgMjAwIDM5MiwgMjUwIDM5MCIKICAgICAgICBmaWxsPSJub25lIiBzdHJva2U9IiMxREJGQjQiIHN0cm9rZS13aWR0aD0iMjIiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgoKICA8IS0tIFB1cnBsZSBiYXNlIHN3ZWVwIC0tPgogIDxwYXRoIGQ9Ik0gMzUyIDM3MCBDIDMzMiAzODUsIDMwMCAzOTIsIDI1MCAzOTAiCiAgICAgICAgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjOEIyRjhCIiBzdHJva2Utd2lkdGg9IjIyIiBzdHJva2UtbGluZWNhcD0icm91bmQiLz4KCiAgPCEtLSBURUFMIFdIRUFUIFNUQUxLIChsZWZ0KSAtLT4KICA8ZyBmaWxsPSIjMURCRkI0Ij4KICAgIDxyZWN0IHg9IjE0OCIgeT0iMTYwIiB3aWR0aD0iMy41IiBoZWlnaHQ9IjE5NSIgcng9IjEuNSIvPgogICAgPGVsbGlwc2UgY3g9IjE0OS41IiBjeT0iMTU4IiByeD0iOCIgcnk9IjEzIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTM4IiBjeT0iMTc1IiByeD0iNyIgcnk9IjExIiB0cmFuc2Zvcm09InJvdGF0ZSgtMjggMTM4IDE3NSkiLz4KICAgIDxlbGxpcHNlIGN4PSIxNjIiIGN5PSIxNzciIHJ4PSI3IiByeT0iMTEiIHRyYW5zZm9ybT0icm90YXRlKDI4IDE2MiAxNzcpIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTMzIiBjeT0iMTk3IiByeD0iNyIgcnk9IjExIiB0cmFuc2Zvcm09InJvdGF0ZSgtMzIgMTMzIDE5NykiLz4KICAgIDxlbGxpcHNlIGN4PSIxNjYiIGN5PSIxOTkiIHJ4PSI3IiByeT0iMTEiIHRyYW5zZm9ybT0icm90YXRlKDMwIDE2NiAxOTkpIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTMwIiBjeT0iMjE5IiByeD0iNi41IiByeT0iMTAiIHRyYW5zZm9ybT0icm90YXRlKC0zMyAxMzAgMjE5KSIvPgogICAgPGVsbGlwc2UgY3g9IjE2OCIgY3k9IjIyMSIgcng9IjYuNSIgcnk9IjEwIiB0cmFuc2Zvcm09InJvdGF0ZSgzMSAxNjggMjIxKSIvPgogICAgPGVsbGlwc2UgY3g9IjEyOSIgY3k9IjI0MCIgcng9IjYiIHJ5PSI5LjUiIHRyYW5zZm9ybT0icm90YXRlKC0zMCAxMjkgMjQwKSIvPgogICAgPGVsbGlwc2UgY3g9IjE2OSIgY3k9IjI0MiIgcng9IjYiIHJ5PSI5LjUiIHRyYW5zZm9ybT0icm90YXRlKDI4IDE2OSAyNDIpIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTMxIiBjeT0iMjYwIiByeD0iNS41IiByeT0iOSIgdHJhbnNmb3JtPSJyb3RhdGUoLTI3IDEzMSAyNjApIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTY3IiBjeT0iMjYyIiByeD0iNS41IiByeT0iOSIgdHJhbnNmb3JtPSJyb3RhdGUoMjUgMTY3IDI2MikiLz4KICAgIDxlbGxpcHNlIGN4PSIxMzQiIGN5PSIyNzkiIHJ4PSI1IiByeT0iOCIgdHJhbnNmb3JtPSJyb3RhdGUoLTIzIDEzNCAyNzkpIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTY0IiBjeT0iMjgwIiByeD0iNSIgcnk9IjgiIHRyYW5zZm9ybT0icm90YXRlKDIxIDE2NCAyODApIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTM4IiBjeT0iMjk3IiByeD0iNC41IiByeT0iNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTE4IDEzOCAyOTcpIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTYwIiBjeT0iMjk4IiByeD0iNC41IiByeT0iNyIgdHJhbnNmb3JtPSJyb3RhdGUoMTYgMTYwIDI5OCkiLz4KICA8L2c+CgogIDwhLS0gUFVSUExFIFdIRUFUIFNUQUxLIChyaWdodCkgLS0+CiAgPGcgZmlsbD0iIzhCMkY4QiI+CiAgICA8cmVjdCB4PSIzNDguNSIgeT0iMTYwIiB3aWR0aD0iMy41IiBoZWlnaHQ9IjE5NSIgcng9IjEuNSIvPgogICAgPGVsbGlwc2UgY3g9IjM1MC41IiBjeT0iMTU4IiByeD0iOCIgcnk9IjEzIi8+CiAgICA8ZWxsaXBzZSBjeD0iMzM4IiBjeT0iMTc1IiByeD0iNyIgcnk9IjExIiB0cmFuc2Zvcm09InJvdGF0ZSgtMjggMzM4IDE3NSkiLz4KICAgIDxlbGxpcHNlIGN4PSIzNjIiIGN5PSIxNzciIHJ4PSI3IiByeT0iMTEiIHRyYW5zZm9ybT0icm90YXRlKDI4IDM2MiAxNzcpIi8+CiAgICA8ZWxsaXBzZSBjeD0iMzM0IiBjeT0iMTk3IiByeD0iNyIgcnk9IjExIiB0cmFuc2Zvcm09InJvdGF0ZSgtMzAgMzM0IDE5NykiLz4KICAgIDxlbGxpcHNlIGN4PSIzNjciIGN5PSIxOTkiIHJ4PSI3IiByeT0iMTEiIHRyYW5zZm9ybT0icm90YXRlKDMyIDM2NyAxOTkpIi8+CiAgICA8ZWxsaXBzZSBjeD0iMzMyIiBjeT0iMjE5IiByeD0iNi41IiByeT0iMTAiIHRyYW5zZm9ybT0icm90YXRlKC0zMSAzMzIgMjE5KSIvPgogICAgPGVsbGlwc2UgY3g9IjM3MCIgY3k9IjIyMSIgcng9IjYuNSIgcnk9IjEwIiB0cmFuc2Zvcm09InJvdGF0ZSgzMyAzNzAgMjIxKSIvPgogICAgPGVsbGlwc2UgY3g9IjMzMSIgY3k9IjI0MCIgcng9IjYiIHJ5PSI5LjUiIHRyYW5zZm9ybT0icm90YXRlKC0yOCAzMzEgMjQwKSIvPgogICAgPGVsbGlwc2UgY3g9IjM3MSIgY3k9IjI0MiIgcng9IjYiIHJ5PSI5LjUiIHRyYW5zZm9ybT0icm90YXRlKDMwIDM3MSAyNDIpIi8+CiAgICA8ZWxsaXBzZSBjeD0iMzMzIiBjeT0iMjYwIiByeD0iNS41IiByeT0iOSIgdHJhbnNmb3JtPSJyb3RhdGUoLTI1IDMzMyAyNjApIi8+CiAgICA8ZWxsaXBzZSBjeD0iMzY5IiBjeT0iMjYyIiByeD0iNS41IiByeT0iOSIgdHJhbnNmb3JtPSJyb3RhdGUoMjcgMzY5IDI2MikiLz4KICAgIDxlbGxpcHNlIGN4PSIzMzYiIGN5PSIyNzkiIHJ4PSI1IiByeT0iOCIgdHJhbnNmb3JtPSJyb3RhdGUoLTIxIDMzNiAyNzkpIi8+CiAgICA8ZWxsaXBzZSBjeD0iMzY2IiBjeT0iMjgwIiByeD0iNSIgcnk9IjgiIHRyYW5zZm9ybT0icm90YXRlKDIzIDM2NiAyODApIi8+CiAgICA8ZWxsaXBzZSBjeD0iMzQwIiBjeT0iMjk3IiByeD0iNC41IiByeT0iNyIgdHJhbnNmb3JtPSJyb3RhdGUoLTE2IDM0MCAyOTcpIi8+CiAgICA8ZWxsaXBzZSBjeD0iMzYyIiBjeT0iMjk4IiByeD0iNC41IiByeT0iNyIgdHJhbnNmb3JtPSJyb3RhdGUoMTggMzYyIDI5OCkiLz4KICA8L2c+CgogIDwhLS0gT1BFTiBCT09LIOKAlCBzaXRzIG5lYXIgYm90dG9tIG9mIGFyY2ggaW50ZXJpb3IsIHk9Mjcw4oCTMzYwIC0tPgogIDxwYXRoIGQ9Ik0gMTc4IDM2MiBDIDE3OCAzNTIsIDE4NSAzNDQsIDI1MCAzNDEgQyAzMTUgMzQ0LCAzMjIgMzUyLCAzMjIgMzYyIFoiCiAgICAgICAgZmlsbD0iIzhCMkY4QiIgb3BhY2l0eT0iMC4yNSIvPgoKICA8IS0tIExlZnQgcGFnZSAtLT4KICA8cGF0aCBkPSJNIDE3OCAyODAKICAgICAgICAgICBDIDE3OCAyNzIsIDE4OCAyNjYsIDI1MCAyNjQKICAgICAgICAgICBMIDI1MCAzNjAKICAgICAgICAgICBDIDE4OCAzNTcsIDE3OCAzNTAsIDE3OCAzNDAgWiIKICAgICAgICBmaWxsPSJ3aGl0ZSIgc3Ryb2tlPSIjOEIyRjhCIiBzdHJva2Utd2lkdGg9IjIuNSIvPgoKICA8IS0tIFJpZ2h0IHBhZ2UgLS0+CiAgPHBhdGggZD0iTSAzMjIgMjgwCiAgICAgICAgICAgQyAzMjIgMjcyLCAzMTIgMjY2LCAyNTAgMjY0CiAgICAgICAgICAgTCAyNTAgMzYwCiAgICAgICAgICAgQyAzMTIgMzU3LCAzMjIgMzUwLCAzMjIgMzQwIFoiCiAgICAgICAgZmlsbD0id2hpdGUiIHN0cm9rZT0iIzhCMkY4QiIgc3Ryb2tlLXdpZHRoPSIyLjUiLz4KCiAgPCEtLSBTcGluZSAtLT4KICA8bGluZSB4MT0iMjUwIiB5MT0iMjY0IiB4Mj0iMjUwIiB5Mj0iMzYwIiBzdHJva2U9IiM4QjJGOEIiIHN0cm9rZS13aWR0aD0iMi41Ii8+CgogIDwhLS0gTGVmdCBwYWdlIHRleHQgbGluZXMgLS0+CiAgPGcgc3Ryb2tlPSIjOEIyRjhCIiBzdHJva2Utd2lkdGg9IjEuOCIgb3BhY2l0eT0iMC41NSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIj4KICAgIDxsaW5lIHgxPSIxOTIiIHkxPSIyODYiIHgyPSIyNDMiIHkyPSIyODUiLz4KICAgIDxsaW5lIHgxPSIxOTAiIHkxPSIyOTYiIHgyPSIyNDMiIHkyPSIyOTUiLz4KICAgIDxsaW5lIHgxPSIxODkiIHkxPSIzMDYiIHgyPSIyNDMiIHkyPSIzMDUiLz4KICAgIDxsaW5lIHgxPSIxODgiIHkxPSIzMTYiIHgyPSIyNDMiIHkyPSIzMTUiLz4KICAgIDxsaW5lIHgxPSIxODgiIHkxPSIzMjYiIHgyPSIyNDMiIHkyPSIzMjUiLz4KICAgIDxsaW5lIHgxPSIxODgiIHkxPSIzMzYiIHgyPSIyNDMiIHkyPSIzMzUiLz4KICAgIDxsaW5lIHgxPSIxODgiIHkxPSIzNDYiIHgyPSIyNDMiIHkyPSIzNDUiLz4KICA8L2c+CgogIDwhLS0gUmlnaHQgcGFnZSB0ZXh0IGxpbmVzIC0tPgogIDxnIHN0cm9rZT0iIzhCMkY4QiIgc3Ryb2tlLXdpZHRoPSIxLjgiIG9wYWNpdHk9IjAuNTUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCI+CiAgICA8bGluZSB4MT0iMjU3IiB5MT0iMjg1IiB4Mj0iMzA4IiB5Mj0iMjg2Ii8+CiAgICA8bGluZSB4MT0iMjU3IiB5MT0iMjk1IiB4Mj0iMzEwIiB5Mj0iMjk2Ii8+CiAgICA8bGluZSB4MT0iMjU3IiB5MT0iMzA1IiB4Mj0iMzExIiB5Mj0iMzA2Ii8+CiAgICA8bGluZSB4MT0iMjU3IiB5MT0iMzE1IiB4Mj0iMzEyIiB5Mj0iMzE2Ii8+CiAgICA8bGluZSB4MT0iMjU3IiB5MT0iMzI1IiB4Mj0iMzEyIiB5Mj0iMzI2Ii8+CiAgICA8bGluZSB4MT0iMjU3IiB5MT0iMzM1IiB4Mj0iMzEyIiB5Mj0iMzM2Ii8+CiAgICA8bGluZSB4MT0iMjU3IiB5MT0iMzQ1IiB4Mj0iMzExIiB5Mj0iMzQ2Ii8+CiAgPC9nPgoKICA8IS0tIExlZnQgY29sdW1uIGJsb2NrcyAtLT4KICA8cmVjdCB4PSIxOTciIHk9IjI4MiIgd2lkdGg9IjE4IiBoZWlnaHQ9IjcyIiByeD0iMiIgZmlsbD0iIzhCMkY4QiIgb3BhY2l0eT0iMC4xMiIvPgogIDxyZWN0IHg9IjIyMCIgeT0iMjgyIiB3aWR0aD0iMTgiIGhlaWdodD0iNzIiIHJ4PSIyIiBmaWxsPSIjOEIyRjhCIiBvcGFjaXR5PSIwLjEyIi8+CgogIDwhLS0gUmlnaHQgY29sdW1uIGJsb2NrcyAtLT4KICA8cmVjdCB4PSIyNjIiIHk9IjI4MiIgd2lkdGg9IjE4IiBoZWlnaHQ9IjcyIiByeD0iMiIgZmlsbD0iIzhCMkY4QiIgb3BhY2l0eT0iMC4xMiIvPgogIDxyZWN0IHg9IjI4NSIgeT0iMjgyIiB3aWR0aD0iMTgiIGhlaWdodD0iNzIiIHJ4PSIyIiBmaWxsPSIjOEIyRjhCIiBvcGFjaXR5PSIwLjEyIi8+CgogIDwhLS0gR1JFRU4gQkVSRVQg4oCUIHNpdHMganVzdCBhYm92ZSB0aGUgYm9vaywgYmFuZCBhdCB5PTI0OCAtLT4KICA8IS0tIEJlcmV0IGJhbmQgLS0+CiAgPGVsbGlwc2UgY3g9IjI1MCIgY3k9IjI0OCIgcng9IjcyIiByeT0iMTMiIGZpbGw9IiMxYTFhMGUiLz4KCiAgPCEtLSBCZXJldCBwdWZmIGJvZHkgLS0+CiAgPHBhdGggZD0iTSAxNzggMjQ0CiAgICAgICAgICAgQyAxNzggMjEwLCAxOTYgMTc4LCAyMjIgMTY2CiAgICAgICAgICAgQyAyMzYgMTYwLCAyNTEgMTU5LCAyNjYgMTYzCiAgICAgICAgICAgQyAyODYgMTY5LCAzMDIgMTg0LCAzMTEgMjA0CiAgICAgICAgICAgQyAzMTggMjIwLCAzMTggMjM4LCAzMTQgMjQ2CiAgICAgICAgICAgTCAxNzggMjQ2IFoiCiAgICAgICAgZmlsbD0iIzRhNjMyOCIvPgoKICA8IS0tIEJlcmV0IGhpZ2hsaWdodCAtLT4KICA8cGF0aCBkPSJNIDE5MCAyMzIKICAgICAgICAgICBDIDE5MyAyMDUsIDIwOCAxODAsIDIzMCAxNjkKICAgICAgICAgICBDIDI0MyAxNjMsIDI1NiAxNjIsIDI2OCAxNjciCiAgICAgICAgZmlsbD0ibm9uZSIgc3Ryb2tlPSIjNWU3YzMyIiBzdHJva2Utd2lkdGg9IjUuNSIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBvcGFjaXR5PSIwLjYiLz4KCiAgPCEtLSBTaGFkb3cgdW5kZXJzaWRlIC0tPgogIDxwYXRoIGQ9Ik0gMTc4IDI0NCBDIDIwNCAyNTMsIDIzMiAyNTUsIDI2MCAyNTMgQyAyODYgMjUxLCAzMDggMjQ2LCAzMTQgMjQ0IgogICAgICAgIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzJhM2ExMCIgc3Ryb2tlLXdpZHRoPSI0IiBvcGFjaXR5PSIwLjUiLz4KCiAgPCEtLSBCYW5kIG92ZXJsYXkgLS0+CiAgPGVsbGlwc2UgY3g9IjI1MCIgY3k9IjI0NyIgcng9IjcyIiByeT0iMTMiIGZpbGw9Im5vbmUiIHN0cm9rZT0iIzExMSIgc3Ryb2tlLXdpZHRoPSIyIi8+CiAgPGVsbGlwc2UgY3g9IjI1MCIgY3k9IjI0NiIgcng9IjcxIiByeT0iMTEiIGZpbGw9IiMyMjIiIG9wYWNpdHk9IjAuNCIvPgoKICA8IS0tIEJFUkVUIEJBREdFIC0tPgogIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDI5MCwgMjAwKSI+CiAgICA8cGF0aCBkPSJNIDAgLTE4IEwgMTQgLTE4IEwgMTQgNSBMIDcgMTQgTCAwIDUgWiIKICAgICAgICAgIGZpbGw9IiMzYTVhMWUiIHN0cm9rZT0iI2M4ZDhhMCIgc3Ryb2tlLXdpZHRoPSIxLjUiLz4KICAgIDxsaW5lIHgxPSI3IiB5MT0iMTAiIHgyPSI3IiB5Mj0iLTEyIiBzdHJva2U9IiNjOGQ4YTAiIHN0cm9rZS13aWR0aD0iMS4yIi8+CiAgICA8ZWxsaXBzZSBjeD0iNyIgY3k9Ii0xMyIgcng9IjIuNSIgcnk9IjMuNSIgZmlsbD0iI2M4ZDhhMCIvPgogICAgPGVsbGlwc2UgY3g9IjMuNSIgY3k9Ii04IiByeD0iMiIgcnk9IjMiIHRyYW5zZm9ybT0icm90YXRlKC0yNSAzLjUgLTgpIiBmaWxsPSIjYzhkOGEwIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTAuNSIgY3k9Ii04IiByeD0iMiIgcnk9IjMiIHRyYW5zZm9ybT0icm90YXRlKDI1IDEwLjUgLTgpIiBmaWxsPSIjYzhkOGEwIi8+CiAgICA8ZWxsaXBzZSBjeD0iMi41IiBjeT0iLTIiIHJ4PSIxLjgiIHJ5PSIyLjgiIHRyYW5zZm9ybT0icm90YXRlKC0yOCAyLjUgLTIpIiBmaWxsPSIjYzhkOGEwIi8+CiAgICA8ZWxsaXBzZSBjeD0iMTEuNSIgY3k9Ii0yIiByeD0iMS44IiByeT0iMi44IiB0cmFuc2Zvcm09InJvdGF0ZSgyOCAxMS41IC0yKSIgZmlsbD0iI2M4ZDhhMCIvPgogIDwvZz4KCjwvc3ZnPgo="
+    },
+    {
+      "name": "Lechol-Zman-Dial-Designer",
+      "title": "Watch Dial Designer - Lechol Zman Studio",
+      "description": "Watch Dial Designer",
+      "url": "https://ezshap-rgb.github.io/Lechol-Zman-Dial-Designer/",
+      "icon": ""
+    },
+    {
+      "name": "Watch-Expert",
+      "title": "Watch Knowledge Game",
+      "description": "Watch Knowledge games app",
+      "url": "https://ezshap-rgb.github.io/Watch-Expert/",
+      "icon": ""
+    },
+    {
+      "name": "Whatsapp-Status-Creator",
+      "title": "WhatsApp Status Studio",
+      "description": "",
+      "url": "https://ezshap-rgb.github.io/Whatsapp-Status-Creator/",
+      "icon": ""
+    },
+    {
+      "name": "Wedding-Budget-Tracker-gpt",
+      "title": "חתונה של חלי ועילי",
+      "description": "Track wedding expenditures",
+      "url": "https://ezshap-rgb.github.io/Wedding-Budget-Tracker-gpt/",
+      "icon": ""
+    }
+  ]
+}
