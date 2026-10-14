@@ -31,6 +31,33 @@ deployed apps by itself, and the dashboard renders them as cards.
    your home screen just like the PDF merger; set it as your browser start
    page and your apps are one click away.
 
+## Run locally (on your laptop)
+
+The dashboard is a plain static site, but it **must be served over HTTP** —
+opening `index.html` directly (`file://`) blocks the `fetch("apps.json")` and
+the service worker, so you'd just see an empty page.
+
+From this folder, in any terminal (PowerShell, Git Bash, or cmd):
+
+```bash
+git pull                                  # 1. get the latest apps.json from the workflow
+python -m http.server 8000                # 2. serve this folder  (or: npx --yes serve -l 8000)
+# 3. open http://localhost:8000 in your browser
+```
+
+No Python? `npx --yes serve -l 8000` does the same job. Stop the server with
+`Ctrl+C`.
+
+Want to regenerate the app list locally instead of waiting for the daily
+action (needs Node 18+):
+
+```bash
+node tools/update-apps.js ezshap-rgb      # rebuilds apps.json from your live Pages sites
+```
+
+Then serve and open it as above. Remember not to commit that local
+`apps.json` — on GitHub the workflow owns and commits that file.
+
 ## Notes
 
 - Discovers **public** repos. Forks are skipped (set `INCLUDE_FORKS=1` in
