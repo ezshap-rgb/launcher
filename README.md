@@ -68,6 +68,10 @@ Then serve and open it as above. Remember not to commit that local
   `<title>`, `og:description`/`<meta name=description>` (falling back to the
   repo description), and its `apple-touch-icon` / manifest icon. Apps
   without an icon get a colored letter tile.
+- To give an app a specific icon, drop an image named after its repo into
+  [`icons/apps/`](icons/apps/) (see the README there). A file in that folder
+  overrides whatever the app's own page advertises, and works for apps that
+  ship no icon at all. No code change needed — the next run picks it up.
 - Change the schedule by editing the `cron:` line in the workflow.
 - `apps.json` is fetched network-first by the service worker, so the
   dashboard refreshes whenever you open it online.

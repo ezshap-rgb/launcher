@@ -23,6 +23,60 @@ const OUT = path.join(__dirname, "..", "apps.json");
 const API = "https://api.github.com";
 const MAX_PAGES = 3; // up to 300 repositories
 
+// ---------- Launcher-hosted icon overrides ----------
+// Drop an image in icons/apps/ and it becomes that app's card icon. The file
+// name just has to match the repo name; case, spaces, dashes and underscores
+// are ignored, so "Audio-Trimmer.png", "audio trimmer.svg" and
+// "AudioTrimmer.webp" all work. A local file wins over whatever the app's own
+// HTML advertises, so this is also how you replace a scraped icon.
+const ICONS_DIR = path.join(__dirname, "..", "icons", "apps");
+const ICON_EXTS = [".png", ".webp", ".svg", ".jpg", ".jpeg", ".gif"];
+
+function iconKey(name) {
+  return String(name || "")
+    .toLowerCase()
+    .replace(/[^a-z0-9]/g, "");
+}
+
+/** Base URL of the deployed launcher, used to build absolute icon URLs. */
+function launcherBaseUrl(owner) {
+  const override = (process.env.LAUNCHER_BASE_URL || "").trim();
+  if (override) return override.replace(/\/+$/, "") + "/";
+  const lc = owner.toLowerCase();
+  const origin = `https://${lc}.github.io/`;
+  if (!SELF_REPO || SELF_REPO.toLowerCase() === `${lc}.github.io`) return origin;
+  return `${origin}${SELF_REPO}/`;
+}
+
+/** Map of normalised repo name -> icon file name in icons/apps/. */
+function findLocalIcons(dir = ICONS_DIR) {
+  let entries;
+  try {
+    entries = fs.readdirSync(dir);
+  } catch {
+    return new Map(); // no icons/apps/ yet is fine
+  }
+  const found = new Map();
+  for (const name of entries) {
+    if (name.startsWith(".")) continue;
+    const ext = path.extname(name).toLowerCase();
+    if (!ICON_EXTS.includes(ext)) continue;
+    const key = iconKey(path.basename(name, ext));
+    if (!key) continue;
+    const rank = ICON_EXTS.indexOf(ext);
+    const prev = found.get(key);
+    if (!prev || rank < prev.rank) found.set(key, { file: name, rank });
+  }
+  return found;
+}
+
+/** Public URL for an app's launcher-hosted icon, or null if none was added. */
+function localIconUrl(repoName, owner, icons) {
+  const hit = icons.get(iconKey(repoName));
+  if (!hit) return null;
+  return `${launcherBaseUrl(owner)}icons/apps/${encodeURIComponent(hit.file)}`;
+}
+
 function ghHeaders() {
   const h = {
     "User-Agent": "app-launcher-generator",
@@ -175,6 +229,10 @@ module.exports = {
   linkRelHrefs,
   absolute,
   iconHrefFromHtml,
+  iconKey,
+  launcherBaseUrl,
+  findLocalIcons,
+  localIconUrl,
 };
 
 // ---------- Main ----------
@@ -218,6 +276,8 @@ async function main() {
   console.log(`${repos.length} repo(s), ${candidates.length} candidate(s) — probing Pages URLs…`);
 
   const hostPrefix = `https://${ownerLc}.github.io/`;
+  const localIcons = findLocalIcons();
+  if (localIcons.size) console.log(`Found ${localIcons.size} launcher-hosted icon(s) in icons/apps/.`);
   const apps = [];
   for (const r of candidates) {
     const pageUrl =
@@ -240,14 +300,17 @@ async function main() {
       ""
     ).slice(0, 140);
 
-    let icon = iconHrefFromHtml(html, pageUrl);
-    if (icon) icon = await probeIcon(icon);
-    if (!icon) icon = await iconFromManifest(html, pageUrl);
-    if (icon) icon = await probeIcon(icon);
-    icon = icon || "";
+    let icon = localIconUrl(r.name, OWNER, localIcons);
+    if (!icon) {
+      icon = iconHrefFromHtml(html, pageUrl);
+      if (icon) icon = await probeIcon(icon);
+      if (!icon) icon = await iconFromManifest(html, pageUrl);
+      if (icon) icon = await probeIcon(icon);
+      icon = icon || "";
+    }
 
     apps.push({ name: r.name, title, description, url, icon });
-    console.log(`  ✓ ${r.name} → ${title}`);
+    console.log(`  ✓ ${r.name} → ${title}${localIconUrl(r.name, OWNER, localIcons) ? " (local icon)" : ""}`);
   }
 
   apps.sort((a, b) => a.title.localeCompare(b.title));
