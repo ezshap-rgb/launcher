@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-14T19:21:56.392Z",
+  "generatedAt": "2026-10-14T21:07:01.028Z",
   "owner": "ezshap-rgb",
   "apps": [
     {
@@ -14,7 +14,7 @@
       "title": "Passport Photo Studio",
       "description": "",
       "url": "https://ezshap-rgb.github.io/Passport-photo-creator/",
-      "icon": ""
+      "icon": "https://ezshap-rgb.github.io/launcher/icons/apps/Passport-photo-creator.png"
     },
     {
       "name": "Simple-Photo-Cropper",
@@ -84,7 +84,7 @@
       "title": "WhatsApp Status Studio",
       "description": "",
       "url": "https://ezshap-rgb.github.io/Whatsapp-Status-Creator/",
-      "icon": ""
+      "icon": "https://ezshap-rgb.github.io/launcher/icons/apps/Whatsapp-Status-Creator.png"
     },
     {
       "name": "Wedding-Budget-Tracker-gpt",
