@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-18T09:40:47.197Z",
+  "generatedAt": "2026-10-19T10:50:54.441Z",
   "owner": "ezshap-rgb",
   "apps": [
     {
@@ -10,8 +10,15 @@
       "icon": ""
     },
     {
+      "name": "Audio-Trimmer",
+      "title": "Clean Audio Trimmer",
+      "description": "Simple app to trim audio",
+      "url": "https://ezshap-rgb.github.io/Audio-Trimmer/",
+      "icon": "https://ezshap-rgb.github.io/Audio-Trimmer/icon.png"
+    },
+    {
       "name": "Passport-photo-creator",
-      "title": "Passport Photo Studio",
+      "title": "Clean Passport Photo Studio",
       "description": "",
       "url": "https://ezshap-rgb.github.io/Passport-photo-creator/",
       "icon": "https://ezshap-rgb.github.io/launcher/icons/apps/Passport-photo-creator.png"
@@ -49,13 +56,6 @@
       "title": "Sphere It - Interactive 3D Sphere & Dome Designer",
       "description": "I simple app to turn any image or tecture into a 3d sphere image",
       "url": "https://ezshap-rgb.github.io/Sphere-it/",
-      "icon": ""
-    },
-    {
-      "name": "Audio-Trimmer",
-      "title": "Streamlined Audio Trimmer & MP3 Converter",
-      "description": "Simple app to trim audio",
-      "url": "https://ezshap-rgb.github.io/Audio-Trimmer/",
       "icon": ""
     },
     {
