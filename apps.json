@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-27T10:39:15.929Z",
+  "generatedAt": "2026-10-28T11:24:01.695Z",
   "owner": "ezshap-rgb",
   "apps": [
     {
@@ -78,6 +78,13 @@
       "description": "Watch Knowledge games app",
       "url": "https://ezshap-rgb.github.io/Watch-Expert/",
       "icon": ""
+    },
+    {
+      "name": "WebADB",
+      "title": "WebADB Studio",
+      "description": "Professional in-browser WebUSB ADB controller for Android. Debloat, disable, uninstall, and lock/restore Google Play Store with zero softwar",
+      "url": "https://ezshap-rgb.github.io/WebADB/",
+      "icon": "https://ezshap-rgb.github.io/WebADB/icon.jpg"
     },
     {
       "name": "Whatsapp-Status-Creator",
