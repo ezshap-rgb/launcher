@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-28T11:24:01.695Z",
+  "generatedAt": "2026-10-29T11:34:29.261Z",
   "owner": "ezshap-rgb",
   "apps": [
     {
@@ -84,7 +84,7 @@
       "title": "WebADB Studio",
       "description": "Professional in-browser WebUSB ADB controller for Android. Debloat, disable, uninstall, and lock/restore Google Play Store with zero softwar",
       "url": "https://ezshap-rgb.github.io/WebADB/",
-      "icon": "https://ezshap-rgb.github.io/WebADB/icon.jpg"
+      "icon": "https://ezshap-rgb.github.io/WebADB/icon-192.png"
     },
     {
       "name": "Whatsapp-Status-Creator",
