@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-31T10:57:32.334Z",
+  "generatedAt": "2026-11-01T11:52:45.351Z",
   "owner": "ezshap-rgb",
   "apps": [
     {
@@ -22,6 +22,13 @@
       "description": "",
       "url": "https://ezshap-rgb.github.io/Passport-photo-creator/",
       "icon": "https://ezshap-rgb.github.io/launcher/icons/apps/Passport-photo-creator.png"
+    },
+    {
+      "name": "Clean-Vault",
+      "title": "Clean Vault",
+      "description": "receipt and document system",
+      "url": "https://ezshap-rgb.github.io/Clean-Vault/",
+      "icon": "https://ezshap-rgb.github.io/Clean-Vault/icon-192.png"
     },
     {
       "name": "Simple-Photo-Cropper",
