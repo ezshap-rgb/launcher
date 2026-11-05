@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-04T13:02:14.832Z",
+  "generatedAt": "2026-11-05T13:16:09.517Z",
   "owner": "ezshap-rgb",
   "apps": [
     {
@@ -50,6 +50,13 @@
       "description": "",
       "url": "https://ezshap-rgb.github.io/Collager-and-Cropper-Studio/",
       "icon": ""
+    },
+    {
+      "name": "Shana-Bet-Dashboard",
+      "title": "Shana Bet Guidance Command Center",
+      "description": "Overseas my shana bet guidance and programming",
+      "url": "https://ezshap-rgb.github.io/Shana-Bet-Dashboard/",
+      "icon": "data:image/svg+xml,<svg xmlns="
     },
     {
       "name": "Simple-Calculator",
