@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T11:58:13.456Z",
+  "generatedAt": "2026-11-09T13:58:07.055Z",
   "owner": "ezshap-rgb",
   "apps": [
     {
@@ -29,6 +29,13 @@
       "description": "receipt and document system",
       "url": "https://ezshap-rgb.github.io/Clean-Vault/",
       "icon": "https://ezshap-rgb.github.io/Clean-Vault/icon-192.png"
+    },
+    {
+      "name": "Momentum",
+      "title": "Momentum",
+      "description": "ADHD organization and productivity",
+      "url": "https://ezshap-rgb.github.io/Momentum/",
+      "icon": "https://ezshap-rgb.github.io/Momentum/icons/icon-192.png"
     },
     {
       "name": "Simple-Photo-Cropper",
