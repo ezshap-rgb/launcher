@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-17T14:32:08.923Z",
+  "generatedAt": "2026-11-18T14:08:13.986Z",
   "owner": "ezshap-rgb",
   "apps": [
     {
@@ -17,18 +17,18 @@
       "icon": "https://ezshap-rgb.github.io/Audio-Trimmer/icon.png"
     },
     {
+      "name": "Clean-Vault",
+      "title": "Clean Filing",
+      "description": "receipt and document system",
+      "url": "https://ezshap-rgb.github.io/Clean-Vault/",
+      "icon": "https://ezshap-rgb.github.io/Clean-Vault/icon-192.png"
+    },
+    {
       "name": "Passport-photo-creator",
       "title": "Clean Passport Photo Studio",
       "description": "",
       "url": "https://ezshap-rgb.github.io/Passport-photo-creator/",
       "icon": "https://ezshap-rgb.github.io/launcher/icons/apps/Passport-photo-creator.png"
-    },
-    {
-      "name": "Clean-Vault",
-      "title": "Clean Vault",
-      "description": "receipt and document system",
-      "url": "https://ezshap-rgb.github.io/Clean-Vault/",
-      "icon": "https://ezshap-rgb.github.io/Clean-Vault/icon-192.png"
     },
     {
       "name": "Momentum",
