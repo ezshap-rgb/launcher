@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-22T13:24:23.475Z",
+  "generatedAt": "2026-11-23T16:04:23.885Z",
   "owner": "ezshap-rgb",
   "apps": [
     {
@@ -31,6 +31,13 @@
       "icon": "https://ezshap-rgb.github.io/launcher/icons/apps/Passport-photo-creator.png"
     },
     {
+      "name": "Collager-and-Cropper-Studio",
+      "title": "Collage & Crop Studio",
+      "description": "",
+      "url": "https://ezshap-rgb.github.io/Collager-and-Cropper-Studio/",
+      "icon": ""
+    },
+    {
       "name": "Momentum",
       "title": "Momentum",
       "description": "ADHD organization and productivity",
@@ -38,24 +45,10 @@
       "icon": "https://ezshap-rgb.github.io/Momentum/icons/icon-192.png"
     },
     {
-      "name": "Simple-Photo-Cropper",
-      "title": "Photo Precision Cropper v4",
-      "description": "",
-      "url": "https://ezshap-rgb.github.io/Simple-Photo-Cropper/",
-      "icon": ""
-    },
-    {
       "name": "Canvas-Resizer",
       "title": "Precision Canvas Studio",
       "description": "",
       "url": "https://ezshap-rgb.github.io/Canvas-Resizer/",
-      "icon": ""
-    },
-    {
-      "name": "Collager-and-Cropper-Studio",
-      "title": "Precision Collage & Crop Studio",
-      "description": "",
-      "url": "https://ezshap-rgb.github.io/Collager-and-Cropper-Studio/",
       "icon": ""
     },
     {
@@ -70,6 +63,13 @@
       "title": "Simple Calculator Studio - Pro",
       "description": "",
       "url": "https://ezshap-rgb.github.io/Simple-Calculator/",
+      "icon": ""
+    },
+    {
+      "name": "Simple-Photo-Cropper",
+      "title": "Simple Photo Cropper",
+      "description": "",
+      "url": "https://ezshap-rgb.github.io/Simple-Photo-Cropper/",
       "icon": ""
     },
     {
